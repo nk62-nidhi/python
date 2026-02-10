@@ -1,0 +1,5 @@
+num=int(input("enter a number.....>"))
+if num%3==0 and num%5==0 :
+    print("{} is divible by both 3 and 5:".format(num))
+else:
+    print(" number {} is not divible by 3 and 5 :".format(num))

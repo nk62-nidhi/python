@@ -1,0 +1,18 @@
+list=[1,6,9,2,4]
+print(list)
+list.append(10)
+list.sort()
+print(list)
+# list.sort(reverse=True)
+# #list.reverse()
+# print(list)
+# list.reverse()
+# print(list)
+# print(list.index(1))
+# print(list.count(10))
+m=list.copy()
+# print(m)
+list.insert(1,200)
+print(list)
+list.extend(m)#m ke item ko list me at the end me dal do..
+print(list)

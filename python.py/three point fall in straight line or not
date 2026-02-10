@@ -1,0 +1,12 @@
+x1=float(input("enter x1" ))
+y1=float(input(" y1= "))
+x2=float(input(" x2="))
+y2=float(input(" y2= "))
+x3=float(input(" x3="))
+y3=float(input(" y3= "))
+slope_m1=(x2-x1)/(y2-y1)
+slope_m2=(x3-x2)/(y3-y2)
+if slope_m1==slope_m2:
+    print("{},{},{} and {},{},{} point are lies on straight line".format(x1,x2,x3,y1,y2,y3))
+else:
+    print("not lies on st. line")

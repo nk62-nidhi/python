@@ -1,0 +1,10 @@
+country=("asia","india","london","delhi")
+temp=list(country)
+temp.append("russia")
+#temp.pop(3)
+temp[2]="finland"
+country=tuple(temp)
+print(country)
+print(country.count("india"))
+print(len(country))
+print(country.index("delhi"))

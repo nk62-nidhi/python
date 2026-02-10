@@ -1,0 +1,12 @@
+a=float(input("enter first side...."))
+b=float(input("enter second side...."))
+c=float(input("enter third side...."))
+if a+b>c or b+c>a or a+c>b:
+    print("side {} ,side {},side {} is valid trangle:".format(a,b,c))
+else:
+    print("it is not valid trangle:...")
+
+if pow(a,2)==pow(b,2)+pow(c,2) or pow(b,2)==pow(c,2)+pow(a,2) or pow(c,2)==pow(b,2)+pow(a,2):
+    print("{} ,{} and {} is right angle trangle ".format(a,b,c))
+else:
+    print("not right angle trangle")

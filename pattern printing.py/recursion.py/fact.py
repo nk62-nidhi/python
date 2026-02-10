@@ -1,0 +1,7 @@
+num=int(input("enter number....>"))
+def fact(n):
+    if n==1 or n==0:
+        return 1
+    else:
+       return n * fact(n-1)
+print(f"factorial of {num} is :{fact(num)}")
